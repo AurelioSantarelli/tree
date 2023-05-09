@@ -1,0 +1,20 @@
+usage: ./myTree [path] -[adfugdsD--inodesrt--dirfirst-l:--help]
+  Usage: tree [DIRECTORY] [OPTION...]
+  List contents of directories in a tree-like format
+   Options:
+    -a, --all                  show hidden files
+    -d, --directories-only     show directories only
+    -f, --files-only           show files only
+    -p, --permissions          show permissions
+    -s, --sizes                show sizes
+    -u, --user                 show user
+    -g, --group                show group
+    -D, --no-recurse           don't recurse into directories
+    --inodes                   show inode numbers
+    -r                         sort files in reverse order
+    -t                         sort files by modification time
+    --dirsfirst                sort directories before files
+    -L [depth]                 max display depth of the directory tree
+    --help                     display this help and exit
+    
+Implementazione a cura di: Aurelio Santarelli 1888625
